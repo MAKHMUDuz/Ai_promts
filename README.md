@@ -1,95 +1,110 @@
-# 🧠 Ultimate AI Prompt Engineering Collection
+<div align="center">
+
+# Ultimate AI Prompt Engineering Collection
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 > **The most powerful, research-backed prompt templates for every major AI model — copy, paste, and win.**
 
 A curated GitHub repository of production-grade prompt engineering guides for the world's most powerful AI systems. Each guide is built from official documentation, real-world testing, and advanced techniques that go far beyond basic prompting.
 
----
+</div>
 
-## 🗂️ Navigate by AI Model
+<br/>
+
+## Navigate by AI Model
 
 | AI Model | Best For | Guide |
 |----------|----------|-------|
-| 🟣 **Claude** (Anthropic) | Long-form analysis, coding, structured reasoning | [→ claude/README.md](./claude/README.md) |
-| 🟢 **ChatGPT / GPT-5** (OpenAI) | General, creative, agentic workflows | [→ chatgpt/README.md](./chatgpt/README.md) |
-| 🔵 **Kimi K2.5** (Moonshot AI) | Bilingual research, safe/long-doc tasks | [→ kimi/README.md](./kimi/README.md) |
-| 🟠 **MiniMax M2** | Agentic coding, 1M+ token context | [→ minimax/README.md](./minimax/README.md) |
-| ⚡ **Grok** (xAI) | Fast iteration, live coding, pair programming | [→ grok/README.md](./grok/README.md) |
-| 🔴 **Gemini 2.5 Pro** (Google) | Multimodal, planning, self-critique workflows | [→ gemini/README.md](./gemini/README.md) |
+| ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white) | Long-form analysis, coding, structured reasoning | [→ claude/README.md](./claude/README.md) |
+| ![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white) | General, creative, agentic workflows | [→ chatgpt/README.md](./chatgpt/README.md) |
+| ![Kimi](https://img.shields.io/badge/Kimi_K2.5-4384F4?style=for-the-badge&logoColor=white) | Bilingual research, safe/long-doc tasks | [→ kimi/README.md](./kimi/README.md) |
+| ![MiniMax](https://img.shields.io/badge/MiniMax_M2-FF4B4B?style=for-the-badge&logoColor=white) | Agentic coding, 1M+ token context | [→ minimax/README.md](./minimax/README.md) |
+| ![Grok](https://img.shields.io/badge/Grok-000000?style=for-the-badge&logo=x&logoColor=white) | Fast iteration, live coding, pair programming | [→ grok/README.md](./grok/README.md) |
+| ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white) | Multimodal, planning, self-critique workflows | [→ gemini/README.md](./gemini/README.md) |
 
----
+<br/>
 
-## 🚀 Why This Repository?
+## Why This Repository?
 
 Most prompt guides are shallow. This one is different:
 
-- ✅ **Every technique is sourced from official documentation** (not Reddit opinions)
-- ✅ **Model-specific** — what works in Claude can break GPT, and vice versa
-- ✅ **Production-ready** — all prompts are formatted for immediate copy-paste use
-- ✅ **Continuously updated** as models evolve
+- **Sourced from official documentation**: No guesswork, relying only on what the creators publish.
+- **Model-specific**: What works in Claude can break GPT, and vice versa. 
+- **Production-ready**: All prompts are formatted for immediate copy-paste use.
+- **Continuously updated**: Refined constantly as models evolve.
 
----
+<br/>
 
-## ⚡ Quick Comparison: Which AI for What?
+## Quick Comparison: Which AI for What?
 
-```
-🟣 Claude      → Writing, deep coding, 200K+ token documents, structured XML reasoning
-🟢 ChatGPT     → Versatile tasks, creative work, agent chains, JSON/tool output
-🔵 Kimi        → Bilingual (EN+ZH) research, safe summaries, recursive long-doc analysis
-🟠 MiniMax     → Agentic coding with massive context, diff-patch, production workflows
-⚡ Grok        → Fast code iteration, pair programming, real-time file-context coding
-🔴 Gemini      → Images, video, multimodal planning, self-critique reasoning loops
-```
+| Model | Primary Superpower |
+|-------|-----------------------|
+| ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white) | Writing, deep coding, 200K+ token documents, structured XML reasoning |
+| ![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=flat-square&logo=openai&logoColor=white)| Versatile tasks, creative work, agent chains, JSON/tool output |
+| ![Kimi](https://img.shields.io/badge/Kimi_K2.5-4384F4?style=flat-square&logoColor=white) | Bilingual (EN+ZH) research, safe summaries, recursive long-doc analysis |
+| ![MiniMax](https://img.shields.io/badge/MiniMax_M2-FF4B4B?style=flat-square&logoColor=white)| Agentic coding with massive context, diff-patch, production workflows |
+| ![Grok](https://img.shields.io/badge/Grok-000000?style=flat-square&logo=x&logoColor=white) | Fast code iteration, pair programming, real-time file-context coding |
+| ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) | Images, video, multimodal planning, self-critique reasoning loops |
 
----
+<br/>
 
-## 📐 Universal Prompt Engineering Principles
+## Universal Prompt Engineering Principles
 
 These principles apply across **all** AI models:
 
-1. **Give a role** — "You are a senior X" outperforms no role in every model tested
-2. **Use delimiters** — XML tags, `"""`, `---` prevent context bleed
-3. **Show examples** — Few-shot (2–5 examples) dramatically improves output quality
-4. **Specify output format** — Tell the model *exactly* how you want the response structured
-5. **Constrain verbosity** — Set explicit limits: "≤ 5 bullets", "max 3 sentences"
-6. **Think out loud** — "Think step-by-step before answering" improves reasoning across all models
+1. **Give a Role** — "You are a senior X" outperforms no role in every model tested.
+2. **Use Delimiters** — XML tags, `"""`, `---` prevent context bleed.
+3. **Show Examples** — Few-shot (2–5 examples) dramatically improves output quality.
+4. **Specify Output Format** — Tell the model *exactly* how you want the response structured.
+5. **Constrain Verbosity** — Set explicit limits: "≤ 5 bullets", "max 3 sentences".
+6. **Think Out Loud** — "Think step-by-step before answering" improves reasoning across all models.
 
----
+<br/>
 
-## 📁 Repository Structure
+## Repository Structure
 
-```
+```text
 Ai_promts/
 ├── README.md               ← You are here (master index)
 ├── claude/
-│   └── README.md           ← Claude Opus/Sonnet/Haiku prompt guide
+│   └── README.md           ← Claude prompt guide
 ├── chatgpt/
-│   └── README.md           ← GPT-5 / GPT-4.1 prompt guide
+│   └── README.md           ← ChatGPT prompt guide
 ├── kimi/
 │   └── README.md           ← Kimi K2.5 prompt guide
 ├── minimax/
 │   └── README.md           ← MiniMax M2 prompt guide
 ├── grok/
-│   └── README.md           ← Grok grok-code-fast-1 prompt guide
+│   └── README.md           ← Grok prompt guide
 └── gemini/
-    └── README.md           ← Gemini 2.5 Pro prompt guide
+    └── README.md           ← Gemini prompt guide
 ```
 
----
+<br/>
 
-## 🤝 Contributing
+## Contributing
 
-Found a better technique? Open a PR! Please include:
+Found a better technique? **Open a PR!** Please include:
 - The source (official docs, paper, or reproducible experiment)
 - The model version it was tested on
 - A before/after example
 
----
+<br/>
 
-## 📜 License
+## License
 
-MIT — free to use, share, and build upon.
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
----
+Free to use, share, and build upon.
 
-> ⭐ **Star this repo** to stay updated as models and best practices evolve!
+<br/>
+
+<div align="center">
+
+**Star this repo** to stay updated as models and best practices evolve!
+
+[![GitHub stars](https://img.shields.io/github/stars/user/repo.svg?style=social&label=Star)](https://github.com/user/repo)
+
+</div>
