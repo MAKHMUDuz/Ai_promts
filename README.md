@@ -105,6 +105,6 @@ Free to use, share, and build upon.
 
 **Star this repo** to stay updated as models and best practices evolve!
 
-[![GitHub stars](https://img.shields.io/github/stars/user/repo.svg?style=social&label=Star)](https://github.com/user/repo)
+[![GitHub stars](https://img.shields.io/github/stars/MAKHMUDuz/Ai_promts.svg?style=social&label=Star)](https://github.com/MAKHMUDuz/Ai_promts)
 
 </div>
